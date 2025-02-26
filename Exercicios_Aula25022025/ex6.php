@@ -17,6 +17,6 @@
         $fibo[] = $fibo[$i - 1] + $fibo[$i - 2];
     }
 
-    $string=implode(",",$fibo);
+    $string=implode(", ",$fibo);
     echo $string;
 ?>
